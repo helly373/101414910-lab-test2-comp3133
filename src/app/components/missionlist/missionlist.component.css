@@ -4,13 +4,13 @@ flex-wrap: wrap;
 gap: 24px;
 justify-content: center;
 margin: 30px auto;
-max-width: 1200px;
+max-width: 90%;
 }
 
 .mission-card {
-width: 320px;
+width: 400px;
 border-radius: 20px;
-background: linear-gradient(135deg, #2b2d42, #1a1a2e, #434343);
+background: linear-gradient(135deg, #1823a0, #1a1a2e, #434343);
 color: #ffffff;
 box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
 transition: transform 0.3s ease, box-shadow 0.3s ease;

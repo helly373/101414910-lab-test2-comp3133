@@ -1,10 +1,10 @@
 .filter-container {
-    background: linear-gradient(135deg, #2b2d42, #1a1a2e, #434343);
+    background: linear-gradient(135deg, #9096d0, #e2481a, #360505);
     padding: 30px;
     margin: 24px auto;
     border-radius: 16px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-    max-width: 1000px;
+    max-width: 100%;
     transition: all 0.3s ease;
     color: #ffffff;
 }
@@ -84,15 +84,15 @@ transition: all 0.3s ease;
 }
 
 button:first-child {
-    background-color: #7c82ff;
+    background-color: #000000;
     color: white;
     border: none;
   }
   
   button:last-child {
     background-color: transparent;
-    border: 2px solid #7c82ff;
-    color: #7c82ff;
+    border: 2px solid #0c0d1a;
+    color: #030308;
   }
   
   button:hover {
