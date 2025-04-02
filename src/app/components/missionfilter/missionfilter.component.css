@@ -1,0 +1,117 @@
+.filter-container {
+    background: linear-gradient(135deg, #2b2d42, #1a1a2e, #434343);
+    padding: 30px;
+    margin: 24px auto;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    max-width: 1000px;
+    transition: all 0.3s ease;
+    color: #ffffff;
+}
+  
+.filter-container:hover {
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
+    transform: translateY(-2px);
+}  
+
+.filter-group {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+margin-bottom: 24px;
+}
+
+/* Base styles for form field */
+mat-form-field {
+min-width: 220px;
+flex: 1;
+transition: all 0.2s ease;
+}
+
+mat-form-field:focus-within {
+transform: scale(1.02);
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+    color: rgba(255, 255, 255, 0.2);
+  }
+  
+  ::ng-deep .mat-form-field-appearance-outline:hover .mat-form-field-outline {
+    color: rgba(255, 255, 255, 0.3);
+  }
+  
+  ::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline {
+    color: #7c82ff;
+  }
+  
+  ::ng-deep .mat-form-field-label {
+    color: #bbbbbb;
+  }
+  
+  ::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-label {
+    color: #7c82ff;
+  }
+  
+  ::ng-deep .mat-select-arrow {
+    color: #bbbbbb;
+  }
+  
+  ::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-select-arrow {
+    color: #7c82ff;
+  }
+  
+  ::ng-deep .mat-select-panel {
+    background-color: #1a1a2e !important;
+    color: white !important;
+    border-radius: 8px !important;
+  }
+  
+
+.button-group {
+display: flex;
+justify-content: center;
+gap: 24px;
+margin-top: 10px;
+}
+
+button {
+min-width: 140px;
+font-weight: 500;
+border-radius: 28px;
+padding: 8px 24px;
+transition: all 0.3s ease;
+}
+
+button:first-child {
+    background-color: #7c82ff;
+    color: white;
+    border: none;
+  }
+  
+  button:last-child {
+    background-color: transparent;
+    border: 2px solid #7c82ff;
+    color: #7c82ff;
+  }
+  
+  button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(124, 130, 255, 0.3);
+  }  
+
+@media (max-width: 768px) {
+.filter-group {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.button-group {
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 80%;
+}
+}
