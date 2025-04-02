@@ -37,7 +37,7 @@ Welcome to **SpaceX Mission Explorer**, a modern Angular application built for t
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/AK-0047/SpaceX-Angular-App.git
+git clone https://github.com/helly373/101414910-lab-test2-comp3133.git
 cd SpaceX-Angular-App
 ```
 
@@ -55,26 +55,7 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Deployed Link
 
-**Live Demo on Vercel:** https://spacex-angular.vercel.app
-
-## Folder Structure
-
-```
-src/
-├── app/
-│   ├── components/
-│   │   ├── missionlist/           # List of missions
-│   │   ├── missiondetails/        # Mission detail view
-│   │   └── missionfilter/         # Filtering UI
-│   ├── models/
-│   │   └── launch.model.ts        # Launch data model
-│   ├── services/
-│   │   └── spacex.service.ts      # SpaceX API service
-│   ├── app-routing.module.ts      # Routing setup
-│   └── app.component.ts           # Root component
-```
 
 ## Concepts Covered
 
@@ -85,4 +66,4 @@ src/
 - Custom CSS and SCSS theming with gradients
 - Responsive layout with Flexbox
 
-## Author Name: Anshul Kamboya
+## Author Name: Helly Chauhan
